@@ -1,6 +1,6 @@
 ---
 name: Enhancement💡
-about: Suggest a enhancement for this project
+about: Suggest a enhancement for Eclipse Che
 title: ''
 labels: ''
 assignees: ''
