@@ -2,7 +2,7 @@
 name: Enhancement💡
 about: Suggest a enhancement for Eclipse Che
 title: ''
-labels: ''
+labels: 'kind/enhancement'
 assignees: ''
 
 ---
