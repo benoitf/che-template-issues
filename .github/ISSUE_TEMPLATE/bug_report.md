@@ -6,33 +6,54 @@ labels: ''
 assignees: ''
 
 ---
+### Describe the bug
+<!-- A clear and concise description of what the bug is. -->
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+### Che version
+<!-- (if workspace is running, version can be obtained with help/about menu) -->
+ - [ ] latest
+ - [ ] nightly
+ - [ ] other: please specify
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
+### Steps to reproduce
+
+<!--
+1. Do '...'
 2. Click on '....'
-3. Scroll down to '....'
-4. See error
+3. See error
+-->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+### Expected behavior
+<!-- A clear and concise description of what you expected to happen. -->
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+### Runtime
+   - [ ] kubernetes (include output of `kubectl version`) 
+   - [ ] Openshift (include output of `oc version`)
+   - [ ] minikube (include output of `minikube version` and `kubectl version`)
+   - [ ] minishift (include output of `minishift version` and `oc version`)
+   - [ ] docker-desktop + K8S (include output of `docker version` and `kubectl version`)
+   - [ ] other: (please specify)
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+### Screenshots
+<!-- If applicable, add screenshots to help explain your problem. -->
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+### Installation method
+   - [ ] chectl <!--(please specify the options of chectl tool) -->
+   - [ ] che-operator <!--(version of che-operator) -->
+   - [ ] minishift-addon
+   - [ ] I don't know
 
-**Additional context**
-Add any other context about the problem here.
+### Environment
+   - [ ] my computer 
+       - [ ] Windows
+       - [ ] Linux
+       - [ ] macOS
+   - [ ] Cloud
+       - [ ] Amazon
+       - [ ] Azure
+       - [ ] GCE
+       - [ ] other (please specify) 
+   - [ ] other: please specify
+
+### Additional context
+<!-- Add any other context about the problem here. -->
