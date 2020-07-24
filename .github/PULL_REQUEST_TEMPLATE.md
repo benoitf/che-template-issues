@@ -13,6 +13,10 @@ COMMITTERS: please include labels on each PR. Labels are listed here: https://gi
 
 ### How I have tested this PR ?
 <!-- Please explain for example on which platform (openshift, kubernetes, minikube, CodeReady Container, docker-desktop, etc) and installation method used -->
+
+#### Steps
+<!-- your test scenario -->
+
 #### Runtime
    - [ ] kubernetes
    - [ ] Openshift
@@ -40,7 +44,7 @@ COMMITTERS: please include labels on each PR. Labels are listed here: https://gi
 
 
 ### How reviewer can validate my PR ?
-<!-- steps to ensure the bug is fixed, feature is there, or what is brought by this PR -->
+<!-- extra steps to ensure the bug is fixed, feature is there, or what is brought by this PR -->
 
 ### Docs PR
 <!-- Please add a matching PR to [the docs repo](https://github.com/eclipse/che-docs) and link that PR to this PR -->
