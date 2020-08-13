@@ -4,15 +4,18 @@ Pull Request Policy: https://github.com/eclipse/che/wiki/Development-Workflow#pu
 -->
 
 ### What does this PR do?
+It adds a new Readme file
 
-### Screenshot/screencast of this PR if any
+### Screenshot/screencast of this PR
+<!-- Please include a screenshot or a screencast explaining what is doing this PR -->
 
 ### What issues does this PR fix or reference?
 <!-- Please include any related issue from eclipse che repository (or from another issue tracker).
      Include link to other pull requests like documentation PR from [the docs repo](https://github.com/eclipse/che-docs)
 -->
 
-### How to test this PR
+
+### How to test this PR?
 <!-- Please explain for example :
   - The test platform (openshift, kubernetes, minikube, CodeReady Container, docker-desktop, etc)
   - Installation method: chectl / che-operator
@@ -26,14 +29,13 @@ As the author of this Pull Request I made sure that:
 - [ ] The Eclipse Contributor Agreement is valid
 - [ ] Code produced is complete
 - [ ] Code builds without errors
-- [ ] Automated test for every bug fixed
-- [ ] The devfile is up to date and works
-- [ ] `How to test this PR` section above
-- [ ] Links in `What issues does this PR fix or reference` section above
+- [ ] Add new automated test for every bug fixed
+- [ ] The repository devfile is up to date and works
+- [ ] Sections `What issues does this PR fix or reference` and `How to test this PR` completed
 - [ ] Relevant user documentation updated
 - [ ] Relevant contributing documentation updated
 - [ ] CI/CD changes implemented, documented and communicated
 
 ### Reviewers
 
-- reviewers, please add how you tested the PR when approving it.
+Reviewers, please add how you tested the PR when approving it.
