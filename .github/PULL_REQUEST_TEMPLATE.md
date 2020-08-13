@@ -4,10 +4,11 @@ Pull Request Policy: https://github.com/eclipse/che/wiki/Development-Workflow#pu
 -->
 
 ### What does this PR do?
-It adds a new Readme file
+
 
 ### Screenshot/screencast of this PR
 <!-- Please include a screenshot or a screencast explaining what is doing this PR -->
+
 
 ### What issues does this PR fix or reference?
 <!-- Please include any related issue from eclipse che repository (or from another issue tracker).
@@ -21,6 +22,7 @@ It adds a new Readme file
   - Installation method: chectl / che-operator
   - steps to reproduce
  -->
+
 
 ### PR Checklist
 
