@@ -33,8 +33,12 @@ body:
       label: Che version
       description: if workspace is running, version can be obtained with help/about menu
       options:
-        - latest (Default)
+        - Che 7.32@latest
         - next
+        - Che 7.31
+        - Che 7.30
+        - Che 7.29
+        - other (please specify in additional context)
     validations:
       required: true
   - type: textarea
