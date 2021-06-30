@@ -1,4 +1,4 @@
-name: Bug Report
+name: markdown bug
 description: File a bug report
 title: "[Bug]: "
 labels: [bug, triage]
