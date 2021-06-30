@@ -43,11 +43,11 @@ body:
       label: Steps to reproduce
       description: Also tell us, what did you expect to happen?
       placeholder: |
-      ```
-      1. Do '...'
-      2. Click on '....'
-      3. See error
-      ```
+        ```
+        1. Do '...'
+        2. Click on '....'
+        3. See error
+        ```
     validations:
       required: true
 
