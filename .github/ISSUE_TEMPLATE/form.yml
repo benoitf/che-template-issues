@@ -7,7 +7,9 @@ body:
     attributes:
       value: |
         ### Welcome
-        <details>
+        Before opening a new issue, please search existing issues https://github.com/eclipse/che/issues
+
+        <details><summary>view more information</summary>
         To make it easier for us to help you, please include as much useful information as possible.
         Useful Links:
         
@@ -17,7 +19,6 @@ body:
         Eclipse Che has public chat on:
           - Mattermost: https://mattermost.eclipse.org/eclipse/channels/eclipse-che
         </details>
-        Before opening a new issue, please search existing issues https://github.com/eclipse/che/issues
   - type: textarea
     id: describe-bug
     attributes:
@@ -41,17 +42,14 @@ body:
     attributes:
       label: Steps to reproduce
       description: Also tell us, what did you expect to happen?
-      placeholder: |
-        1. Do '...'
-        2. Click on '....'
-        3. See error
-      value: "Steps"
+      placeHolder: 1. Do '...', 2. Click on '....', 3. See error
     validations:
       required: true
+
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Steps to reproduce
+      label: Expected behavior
       description: A clear and concise description of what you expected to happen.
       placeholder:  
     validations:
@@ -61,18 +59,39 @@ body:
     id: runtime
     attributes:
       label: Runtime
-      description: What version of our software are you running?
+      description: What is the kubernetes flavor ?
       options:
-        - kubernetes
+        - vanilla Kubernetes
         - OpenShift
         - minikube
         - minishift
         - docker-desktop
+        - other (please specify in additional context)
     validations:
       required: true
+      
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+      required: true        
 
   - type: dropdown
-    id: Environment
+    id: install-method
+    attributes:
+      label: Installation method
+      options:
+        - chectl/latest
+        - chectl/next
+        - OperatorHub
+        - other (please specify in additional context)
+    validations:
+      required: true        
+        
+  - type: dropdown
+    id: environment
     attributes:
       label: Environment
       multiple: true
@@ -84,6 +103,7 @@ body:
         - Azure
         - GCE
         - "Dev Sandbox aka workspaces.openshift.com"
+        - other (please specify in additional context)
 
   - type: textarea
     id: logs
