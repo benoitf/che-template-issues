@@ -1,11 +1,12 @@
 ---
-name: Task 🔧
+name: "Task \U0001F527"
 about: Internal things, technical debt, and to-do tasks to be performed.
 title: ''
-labels: 'kind/task'
+labels: kind/task
 assignees: ''
 
 ---
+
 ### Is your task related to a problem? Please describe.
 <!-- A clear and concise description of what the problem is.-->
 

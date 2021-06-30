@@ -1,11 +1,12 @@
 ---
-name: Enhancement💡
+name: "Enhancement\U0001F4A1"
 about: Suggest a enhancement for Eclipse Che
 title: ''
-labels: 'kind/enhancement'
+labels: kind/enhancement
 assignees: ''
 
 ---
+
 ### Is your enhancement related to a problem? Please describe.
 <!-- A clear and concise description of what the problem is. Ex. I'm always frustrated when [...] -->
 

@@ -1,11 +1,12 @@
 ---
-name: Question 🤔
+name: "Question \U0001F914"
 about: Usage question or discussion about Eclipse Che.
 title: ''
-labels: 'kind/question'
+labels: kind/question
 assignees: ''
 
 ---
+
 <!--
   To make it easier for us to help you, please include as much useful information as possible.
 

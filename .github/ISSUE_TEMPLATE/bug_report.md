@@ -1,11 +1,12 @@
 ---
-name: Bug report 🐞
+name: "Bug report \U0001F41E"
 about: Report a bug found in Eclipse Che
 title: ''
-labels: 'king/bug'
+labels: ''
 assignees: ''
 
 ---
+
 <!--
   To make it easier for us to help you, please include as much useful information as possible.
 
