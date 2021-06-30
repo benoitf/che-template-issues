@@ -46,7 +46,7 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      description: Also tell us, what did you expect to happen?
+      description: What are the steps to reproduce this bug ?
       placeholder: |
         1. Do '...'
         2. Click on '....'
