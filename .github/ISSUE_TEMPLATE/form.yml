@@ -42,7 +42,7 @@ body:
     attributes:
       label: Steps to reproduce
       description: Also tell us, what did you expect to happen?
-      placeHolder: 1. Do '...', 2. Click on '....', 3. See error
+      placeholder: 1. Do '...', 2. Click on '....', 3. See error
     validations:
       required: true
 
