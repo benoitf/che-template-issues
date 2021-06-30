@@ -1,6 +1,5 @@
 name: Bug report Yaml 🐞
 description: Report a bug found in Eclipse Che
-title: "bug:"
 labels: [kind/bug]
 
 body:
@@ -72,7 +71,7 @@ body:
     validations:
       required: true
 
-- type: dropdown
+  - type: dropdown
     id: Environment
     attributes:
       label: Environment
@@ -84,9 +83,9 @@ body:
         - Amazon
         - Azure
         - GCE
-        - Dev Sandbox aka workspaces.openshift.com
+        - "Dev Sandbox aka workspaces.openshift.com"
 
-- type: textarea
+  - type: textarea
     id: logs
     attributes:
       label: Eclipse Che Logs
