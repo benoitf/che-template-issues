@@ -69,7 +69,7 @@ body:
       label: Runtime
       description: What is the kubernetes flavor ?
       options:
-        - vanilla Kubernetes
+        - Kubernetes (vanilla)
         - OpenShift
         - minikube
         - minishift
@@ -110,6 +110,8 @@ body:
         - GCE
         - "Dev Sandbox aka workspaces.openshift.com"
         - other (please specify in additional context)
+    validations:
+      required: true
 
   - type: textarea
     id: logs
@@ -128,5 +130,3 @@ body:
       label: Additional context
       description: Add any other context about the problem here.
       placeholder: 
-    validations:
-      required: false
