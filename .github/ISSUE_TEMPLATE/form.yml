@@ -74,8 +74,8 @@ body:
         - Kubernetes (vanilla)
         - OpenShift
         - minikube
-        - minishift
-        - docker-desktop
+        - CodeReady Container
+        - Docker Desktop
         - other (please specify in additional context)
     validations:
       required: true
