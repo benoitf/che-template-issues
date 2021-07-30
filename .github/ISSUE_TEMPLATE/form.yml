@@ -7,9 +7,10 @@ body:
     attributes:
       value: |
         ### 👐 Welcome
-        🔍 Before opening a new issue, please search existing issues https://github.com/eclipse/che/issues
+        Before opening a new issue, please search existing issues 🔍 https://github.com/eclipse/che/issues
 
         🤔 To make it easier for us to help you, please include as much useful information as possible.
+        
         Useful Links:
         
           - 📄 Documentation: https://www.eclipse.org/che/docs
