@@ -18,7 +18,7 @@ body:
         💬 Eclipse Che has public chat on:
           - Mattermost: https://mattermost.eclipse.org/eclipse/channels/eclipse-che
 
-- type: textarea
+  - type: textarea
     id: describe-bug
     attributes:
       label: Describe the bug
