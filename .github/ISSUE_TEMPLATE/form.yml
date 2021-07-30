@@ -70,6 +70,7 @@ body:
     attributes:
       label: Runtime
       description: What is the kubernetes flavor ?
+      multiple: true
       options:
         - Kubernetes (vanilla)
         - OpenShift
@@ -90,6 +91,7 @@ body:
     id: install-method
     attributes:
       label: Installation method
+      multiple: true
       options:
         - chectl/latest
         - chectl/next
