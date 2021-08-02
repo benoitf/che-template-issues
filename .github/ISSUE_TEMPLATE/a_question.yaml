@@ -23,7 +23,7 @@ body:
     id: summary
     attributes:
       label: Summary of your question
-      description: Summary of your question
+      description: Enter your question
       placeholder: Summary of your question
     validations:
       required: true
@@ -35,4 +35,4 @@ body:
       description: Provide as much useful information as you can
       placeholder: Provide as much useful information as you can
     validations:
-      required: true
+      required: false
