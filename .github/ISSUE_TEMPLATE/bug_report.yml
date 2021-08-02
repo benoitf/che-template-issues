@@ -112,7 +112,7 @@ body:
         - Amazon
         - Azure
         - GCE
-        - "Dev Sandbox aka workspaces.openshift.com"
+        - "Dev Sandbox (workspaces.openshift.com)"
         - other (please specify in additional context)
     validations:
       required: true
