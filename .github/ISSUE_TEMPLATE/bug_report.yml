@@ -1,4 +1,4 @@
-name: Bug report Yaml 🐞
+name: Bug report 🐞
 description: Report a bug found in Eclipse Che
 labels: [kind/bug]
 
