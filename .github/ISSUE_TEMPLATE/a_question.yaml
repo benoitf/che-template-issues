@@ -1,0 +1,5 @@
+name: Bug report Yaml 🐞
+description: Report a bug found in Eclipse Che
+labels: [kind/question]
+
+body:
