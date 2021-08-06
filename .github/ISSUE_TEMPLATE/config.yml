@@ -5,4 +5,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Create Issue
     url: https://github.com/eclipse/che/issues
-    about: https://github.com/eclipse/che/issues
+    about: File issues on the main Eclipse Che repository
